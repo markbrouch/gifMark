@@ -8,6 +8,7 @@ Uses libgif from the [Buzzfeed Github repo](https://github.com/buzzfeed/libgif-j
 Usage
 =====
 Call gifMark on an image tag that has a gif src attribute:
+
     <img id="myGif" src="myGif.gif" alt="A GIF"/>
     
     <script>
