@@ -16,6 +16,7 @@ Call gifMark on an image tag that has a gif src attribute:
     </script>
 
 Canvas animation can be controlled via triggers on the canvas element:
+
     <script>
         $('canvas').trigger('pause'); // Pauses playback
     </script>
