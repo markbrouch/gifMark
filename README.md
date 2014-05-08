@@ -8,16 +8,16 @@ Uses libgif from the [Buzzfeed Github repo](https://github.com/buzzfeed/libgif-j
 Usage
 =====
 Call gifMark on an image tag that has a gif src attribute:
-  <img id="myGif" src="myGif.gif" alt="A GIF"/>
-  
-  <script>
-    $('#myGif').gifMark();
-  </script>
+    <img id="myGif" src="myGif.gif" alt="A GIF"/>
+    
+    <script>
+        $('#myGif').gifMark();
+    </script>
 
 Canvas animation can be controlled via triggers on the canvas element:
-  <script>
-    $('canvas').trigger('pause'); // Pauses playback
-  </script>
+    <script>
+        $('canvas').trigger('pause'); // Pauses playback
+    </script>
 
 The following triggers are available:
 * play
