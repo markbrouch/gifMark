@@ -1,5 +1,6 @@
 gifMark
 =======
+Pronounced "jif-mark"
 
 jQuery Plugin for turning GIFs into Canvas
 
