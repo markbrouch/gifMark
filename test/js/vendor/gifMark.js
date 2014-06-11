@@ -853,19 +853,6 @@
 			};
 
 		};
-		// play controls
-				// play -				Start playing the gif
-				// pause -				Stop playing the gif
-				// move_to(i) -		Move to frame i of the gif
-				// move_relative(i) -	Move i frames ahead (or behind if i < 0)
-
-				// // getters
-				// get_canvas			The canvas element that the gif is playing in. Handy for assigning event handlers to.
-				// get_playing			Whether or not the gif is currently playing
-				// get_loading			Whether or not the gif has finished loading/parsing
-				// get_auto_play		Whether or not the gif is set to play automatically
-				// get_length			The number of frames in the gif
-				// get_current_frame	The index of the currently displayed frame of the gif
 
 		var superGif = new SuperGif({
 			gif: this.get()[0]
@@ -882,6 +869,6 @@
 				superGif.move_relative(i);
 			}
 		});
-		return superGif.get_canvas();
+		return $(superGif.get_canvas());
 	};
 }(jQuery));
